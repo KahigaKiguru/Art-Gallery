@@ -24,7 +24,7 @@ public class Art {
 	private String artist;
 	
 	@Lob
-	@Column(name = "image", columnDefinition = "MEDIUMBLOB")
+	@Column(name = "image")
 	private String image;
 	
 	@Column(name = "price")
